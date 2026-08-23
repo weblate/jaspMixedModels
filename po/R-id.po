@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspMixedModels 0.95.5\n"
 "POT-Creation-Date: 2026-02-28 03:23\n"
-"PO-Revision-Date: 2026-08-22 03:02+0000\n"
+"PO-Revision-Date: 2026-08-23 12:51+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspmixedmodels-r/id/>\n"
@@ -15,45 +15,60 @@ msgstr ""
 
 msgid "The categorical fixed effect '%s' must have fewer levels than the overall number of observations."
 msgstr ""
+"Efek tetap kategorikal '%s' harus memilik lebih sedikit tingkat dari jumlah "
+"observasi keseluruhan."
 
 msgid "The random effects grouping factor '%s' must have fewer levels than the overall number of observations."
 msgstr ""
+"Faktor penggrupan efek acak '%s' harus memiliki lebih sedikit tingkat dari "
+"jumlah observasi keseluruhan."
 
 msgid "The number of iterations must be at least 2 iterations higher than the burnin"
-msgstr ""
+msgstr "Jumlah iterasi harus setidaknya 2 iterasi lebih tinggi dari burnin"
 
 msgid "%s requires that the dependent variable is positive."
-msgstr ""
+msgstr "%s memerlukan bahwa variabel dependen adalah positif."
 
 msgid "%s requires that the dependent variable is an integer."
-msgstr ""
+msgstr "%s memerlukan bahwa variabel dependen adalah integer."
 
 msgid "%s requires that the dependent variable contains only two levels."
-msgstr ""
+msgstr "%s memerlukan bahwa variabel dependen berisi hanya dua tingkat."
 
 msgid "%s requires that the number of trials variable is an integer."
-msgstr ""
+msgstr "%s memerlukan bahwa jumlah variabel percobaan adalah integer."
 
 msgid "%s requires that the number of successes is lower that the number of trials."
 msgstr ""
+"%s memerlukan bahwa jumlah keberhasilan lebih rendah dari jumlah percobaan."
 
 msgid "%s requires that the dependent variable is higher than 0 and lower than 1."
 msgstr ""
+"%s memerlukan bahwa variabel dependen lebih tinggi dari 0 dan lebih rendah "
+"dari 1."
 
 msgid "%s requires that the dependent variable is either the number or proportion of successes out of the number of trials."
 msgstr ""
+"%s memerlukan bahwa variabel dependen adalah baik jumlah atau proporsi "
+"keberhasilan dari jumlah percobaan."
 
 msgid "At least one random effect needs to be specified for the '%1$s' random effect grouping factors.%2$s"
 msgstr ""
+"Setidaknya satu efek acak perlu ditentukan untuk faktor penggrupan efek acak "
+"'%1$s'.%2$s"
 
 msgid "Parametric bootstrap is not supported for %s family. Please use a different test method (e.g., likelihood ratio test)."
 msgstr ""
+"Bootstrap parametris tidak didukung untuk keluarga %s. Silakan gunakan "
+"metode uji berbeda (cth., uji rasio kemungkinan)."
 
 msgid "Mixed-effects models with a fixed intercept only are not supported for aggregated binomial family."
 msgstr ""
+"Model efek tercampur dengan hanya intersep tetap tidak didukung untuk "
+"keluarga binomial teragregasi."
 
 msgid "ANOVA Summary"
-msgstr ""
+msgstr "Ringkasan ANOVA"
 
 msgid "Effect"
 msgstr "Efek"
@@ -65,19 +80,19 @@ msgid "F"
 msgstr "F"
 
 msgid "ChiSq"
-msgstr ""
+msgstr "ChiKuad"
 
 msgid "p"
 msgstr "p"
 
 msgid "p (bootstrap)"
-msgstr ""
+msgstr "p (bootstrap)"
 
 msgid "VS-MPR"
 msgstr "VS-MPR"
 
 msgid "VS-MPR (bootstrap)"
-msgstr ""
+msgstr "VS-MPR (bootstrap)"
 
 msgid "Warning:"
 msgstr "Peringatan:"
@@ -86,25 +101,25 @@ msgid "Note:"
 msgstr "Catatan:"
 
 msgid "III"
-msgstr ""
+msgstr "III"
 
 msgid "II"
-msgstr ""
+msgstr "II"
 
 msgid "'%1$s' level coded as success."
-msgstr ""
+msgstr "Tingkat '%1$s' dikodekan sebagai berhasil."
 
 msgid "Fit statistics"
-msgstr ""
+msgstr "Statistik kesesuaian"
 
 msgid "Deviance"
 msgstr "Devians"
 
 msgid "Deviance (REML)"
-msgstr ""
+msgstr "Devians (REML)"
 
 msgid "log Lik."
-msgstr ""
+msgstr "Kem. log"
 
 msgid "AIC"
 msgstr "AIC"
@@ -113,22 +128,22 @@ msgid "BIC"
 msgstr "BIC"
 
 msgid "Sample sizes"
-msgstr ""
+msgstr "Ukuran sampel"
 
 msgid "Observations"
-msgstr ""
+msgstr "Observasi"
 
 msgid "Levels of RE grouping factors"
-msgstr ""
+msgstr "Tingkat faktor penggrupan RE"
 
 msgid "Variance/Correlation Estimates"
-msgstr ""
+msgstr "Estimasi Varians/Korelasi"
 
 msgid "%s: Variance Estimates"
-msgstr ""
+msgstr "%s: Estimasi Varians"
 
 msgid "Term"
-msgstr ""
+msgstr "Istilah"
 
 msgid "Std. Deviation"
 msgstr "Std. Deviasi"
@@ -137,19 +152,19 @@ msgid "Variance"
 msgstr "Varians"
 
 msgid "%s: Correlation Estimates"
-msgstr ""
+msgstr "%s: Estimasi Korelasi"
 
 msgid "Residual Variance Estimates"
-msgstr ""
+msgstr "Estimasi Varians Residu"
 
 msgid "Random Effect Estimates"
-msgstr ""
+msgstr "Estimasi Efek Acak"
 
 msgid "%s: Random Effect Estimates"
-msgstr ""
+msgstr "%s: Estimasi Efek Acak"
 
 msgid "Fixed Effects Estimates"
-msgstr ""
+msgstr "Estimasi Efek Tetap"
 
 msgid "Estimate"
 msgstr "Estimasi"
@@ -165,18 +180,24 @@ msgstr "Diagram"
 
 msgid "At least one random effects grouping factor needs to be selected in field 'Background data show'."
 msgstr ""
+"Setidaknya satu faktor penggrupan efek acak perlu dipilih di kolom 'Tampilan "
+"data latar belakang'."
 
 msgid "Factor levels need to be distinguished by at least one feature. Please, check one of the 'Distinguish factor levels' options."
 msgstr ""
+"Tingkat faktor perlu dibedakan dengan setidaknya satu fitur. Silakan, "
+"periksa satu dari opsi 'Bedakan tingkat faktor'."
 
 msgid "Violin geom requires that the random effects grouping factors has at least 3 levels."
 msgstr ""
+"Geom viola memerlukan bahwa faktor penggrupan efek acak memiliki setidaknya "
+"3 tingkat."
 
 msgid "Estimated Means"
-msgstr ""
+msgstr "Rerata Terestimasi"
 
 msgid "Estimated Means and Confidence Intervals"
-msgstr ""
+msgstr "Rerata Terestimasi dan Interval Kepercayaan"
 
 msgid "Mean"
 msgstr "Rata-rata"
@@ -191,10 +212,10 @@ msgid "Upper"
 msgstr "Batas Atas"
 
 msgid "Cannot find function: %s"
-msgstr ""
+msgstr "Tidak dapat menemukan fungsi: %s"
 
 msgid "Estimated Marginal Means"
-msgstr ""
+msgstr "Rerata Margin Terestimasi"
 
 msgid "Row"
 msgstr "Baris"
@@ -206,16 +227,16 @@ msgid "Median"
 msgstr "Median"
 
 msgid "%s%% HPD"
-msgstr ""
+msgstr "%s%% HPD"
 
 msgid "Estimated Trends"
-msgstr ""
+msgstr "Tren Terestimasi"
 
 msgid "%s (slope)"
-msgstr ""
+msgstr "%s (condong)"
 
 msgid "contrasts"
-msgstr ""
+msgstr "kontras"
 
 msgid "Odds Ratio"
 msgstr "Rasio Ganjil"
@@ -225,9 +246,12 @@ msgstr "Rasio"
 
 msgid "The specified combination of factors does not produce an estimable model. A factor or combination of factors resulted in more levels than the effective sample size."
 msgstr ""
+"Kombinasi faktor tertentu tidak memproduksikan model dapat terestimasi. "
+"Faktor atau kombinasi faktor menghasilkan lebih tingkat dari ukuran sampel "
+"efektif."
 
 msgid "Please, report the following error message at JASP GitHub %s"
-msgstr ""
+msgstr "Silakan, laporkan pesan galat berikut di JASP GitHub %s"
 
 msgid "Fit Statistics"
 msgstr "Statistik Kecocokan"
@@ -236,25 +260,25 @@ msgid "WAIC"
 msgstr "WAIC"
 
 msgid "SE (WAIC)"
-msgstr ""
+msgstr "SE (WAIC)"
 
 msgid "LOO"
-msgstr ""
+msgstr "LOO"
 
 msgid "SE (LOO)"
-msgstr ""
+msgstr "SE (LOO)"
 
 msgid "Model summary"
 msgstr "Ringkasan model"
 
 msgid "%s (differences from intercept)"
-msgstr ""
+msgstr "%s (perbedaan dari intersep)"
 
 msgid "%s (trend)"
-msgstr ""
+msgstr "%s (tren)"
 
 msgid "%s (marginal means)"
-msgstr ""
+msgstr "%s (rerata margin)"
 
 msgid "Level"
 msgstr "Tingkat"
@@ -270,168 +294,237 @@ msgstr "ESS (ekor)"
 
 msgid "The model could not be estimated. Please, check the options and dataset for errors."
 msgstr ""
+"Model tidak dapat diestimasi. Silakan, periksa opsi dan rangkaian data untuk "
+"galat."
 
 msgid "Sampling diagnostics"
-msgstr ""
+msgstr "Diagnostik pensampelan"
 
 msgid "Avg. autocorrelation"
-msgstr ""
+msgstr "Korelasi otomatis rat."
 
 msgid "The following variables are a linear combination of each other, please, remove one of them from the analysis: %s"
 msgstr ""
+"Variabel berikut adalah kombinasi linear dari setiap lainnya, silakan, hapus "
+"satu dari mereka dari analisis: %s"
 
 msgid "The intercept corresponds to the (unweighted) grand mean; for each factor with k levels, k - 1 parameters are estimated with sum contrast coding. Consequently, the estimates cannot be directly mapped to factor levels. Use estimated marginal means for obtaining estimates for each factor level/design cell or their differences."
 msgstr ""
+"Intersep sesuai dengan rerata grand (tidak berberat); untuk setiap faktor "
+"dengan tingkat k, parameter k - 1 diestimasikan dengan pengkodean kontras "
+"jumlah. Akibatnya, estimasi tidak dapat dipetakan ke tingat faktor secara "
+"langsung. Gunakan rerata margin terestimasi untuk memperoleh estimasi untuk "
+"setiap faktor tingkat/sel rancangan ata perbedaan mereka."
 
 msgid "The intercept corresponds to the mean in the default factor category (factor level parameters are estimated with treatment contrast coding). Consequently, the estimates cannot be easily interepreted in the presence of interactions. Use estimated marginal means for obtaining estimates for each factor level/design cell or their differences."
 msgstr ""
+"Intersep sesuai dengan rerata di kategori faktor bawaan (parameter tingkat "
+"faktor diestimasikan dengan pengkodean kontras perlakuan). Akibatnya, "
+"estimasi tidak dapat diinterpretasikan secara mudah di penampilan interaksi. "
+"Gunakan rerata margin terestimasi untuk memperoleh estimasi untuk setiap "
+"tingkat faktor/sel rancangan atau perbedaan mereka."
 
 msgid "The intercept corresponds to the (unweighted) grand mean; for each factor with k levels, k - 1 parameters are estimated with orthonormal coding proposed by Rouder et al. (2012). Consequently, the estimates cannot be directly mapped to factor levels. Use estimated marginal means for obtaining estimates for each factor level/design cell or their differences."
 msgstr ""
+"Intersep sesuai dengan rerata grand (tidak berberat); untuk setiap faktor "
+"dengan tingkat k, parameter k - 1 diestimasikan dengan pengkodean ortonormal "
+"diajukan oleh Rouder et al. (2012). Akibatnya, estimasi tidak dapat "
+"dipetakan ke tingkat faktor secara langsung. Gunakan rerata margin "
+"terestimasi untuk memperoleh estimasi untuk setiap tingkat faktor/sel "
+"rancangan atau perbedaan mereka."
 
 msgid "Model fit is singular. Specified random effects parameters (random intercepts and random slopes) cannot be estimated from the available data. Carefully reduce the random effects structure, but this practice might inflate the reported p-value, and invalidates the analysis."
 msgstr ""
+"Kesesuaian model adalah tunggal. Parameter efek acak tertentu (intersep acak "
+"dan condong acak) tidak dapat diestimasikan dari data tersedia. Kurangi "
+"struktur efek acak dengan hati-hati, tetapi praktik ini mungkin "
+"menginflasikan nilai-p terlapor, dan membatalkan analisis."
 
 msgid "Vovk-Sellke Maximum <em>p</em>-Ratio: Based on a two-sided <em>p</em>-value, the maximum possible odds in favor of H%1$s over H%2$s equals 1/(-e <em>p</em> log(<em>p</em>)) for <em>p</em> %3$s .37 (Sellke, Bayarri, & Berger, 2001)."
 msgstr ""
+"Rasio-<em>p</em> Maksimum Vovk-Sellke: Berdasarkan nilai-<em>p</em> dua "
+"sisi, ganjil memungkinkan maksimum mendukung H%1$s dibandingkan H%2$s sama "
+"dengan 1/(-e <em>p</em> log(<em>p</em>)) for <em>p</em> %3$s .37 (Sellke, "
+"Bayarri, & Berger, 2001)."
 
 msgid "Numerical problems with the maximum-likelihood estimate (e.g., gradients too large). This may indicate that the specified random effects parameters (random intercepts and random slopes) cannot be estimated from the available data. Consider carefully reducing the random effects structure, but be aware this may induce unknown risks of anti-conservative results (i.e., p-values might be lower than nominal)."
 msgstr ""
+"Masalah numerik dengan estimasi kemungkinan maksimum (cth., gradien terlalu "
+"besar). Ini mungkin mengindikasikan bahwa parameter efek acak ditentukan "
+"(intersep acak dan condong acak) tidak dapat diestimasikan dari data "
+"tersedia. Pertimbangkan kurangi struktur efek acak dengan hati-hati, tetapi "
+"waspada ini mungkin menyebabkan risiko hasil anti-konservatif tidak "
+"diketahui (yaitu, nilai-p mungkin lebih rendah dari nominal)."
 
 msgid "Estimation of degrees of freedom disabled (i.e., asymptotic results shown), because the number of observations is large. To force estimation, check corresponding option."
 msgstr ""
+"Estimasi dari derajat kebebasan dinonaktifkan (yaitu, hasil asimptotik "
+"ditampilkan), karena jumlah observasi besar. Untuk memaksakan estimasi, "
+"periksa opsi sesuai."
 
 msgid "Results are on the response scale."
-msgstr ""
+msgstr "Hasil pada skala tanggapan."
 
 msgid "Results are not on the response scale and might be misleading."
-msgstr ""
+msgstr "Hasil tidak pada skala tanggapan dan mungkin menyesatkan."
 
 msgid "Type %s Sum of Squares"
-msgstr ""
+msgstr "Jenis %s Jumlah Kuadrat"
 
 msgid "This analysis requires at least one random effects grouping factor to run."
 msgstr ""
+"Analisis ini memerlukan setidaknya satu faktor penggrupan efek acak untuk "
+"menjalankan."
 
 msgid "The 'Binomial (aggregated)' family requires the 'Number of trials' to be specified to run."
 msgstr ""
+"Keluarga 'Binomial (teragregasi)' memerlukan 'Jumlah percobaan' ditentukan "
+"untuk menjalankan."
 
 msgid "P-values correspond to test of null hypothesis against %s."
-msgstr ""
+msgstr "Nilai-P sesuai dengan uji dari hipotesis null terhadap %s."
 
 msgid "Results are averaged over the levels of: %s."
 msgstr "Hasil direratakan pada tingkat: %s."
 
 msgid "Bernoulli"
-msgstr ""
+msgstr "Bernoulli"
 
 msgid "binomial"
-msgstr ""
+msgstr "binomial"
 
 msgid "Gaussian"
-msgstr ""
+msgstr "Gauss"
 
 msgid "gamma"
 msgstr "gamma"
 
 msgid "inverseGaussian"
-msgstr ""
+msgstr "inversGauss"
 
 msgid "poisson"
-msgstr ""
+msgstr "poisson"
 
 msgid "negative binomial"
-msgstr ""
+msgstr "binomial negatif"
 
 msgid "beta"
 msgstr "beta"
 
 msgid "Generalized linear mixed model with %1$s family and %2$s link function."
 msgstr ""
+"Model bercampur linear tergeneralisasi dengan keluarga %1$s dan fungsi "
+"tautan %2$s."
 
 msgid "Satterthwaite"
-msgstr ""
+msgstr "Satterthwaite"
 
 msgid "Kenward-Roger"
-msgstr ""
+msgstr "Kenward-Roger"
 
 msgid "likelihood ratio tests"
-msgstr ""
+msgstr "uji rasio kemungkinan"
 
 msgid "parametric bootstrap"
-msgstr ""
+msgstr "bootstrap parametris"
 
 msgid "Model terms tested with %s method."
-msgstr ""
+msgstr "Istilah model diuji dengan metode %s."
 
 msgid "P-values are not adjusted."
-msgstr ""
+msgstr "Nilai-P tidak disesuaikan."
 
 msgid "Holm"
-msgstr ""
+msgstr "Holm"
 
 msgid "Homel"
-msgstr ""
+msgstr "Homel"
 
 msgid "Hochberg"
-msgstr ""
+msgstr "Hochberg"
 
 msgid "Multivariate-t"
-msgstr ""
+msgstr "Multivariat-t"
 
 msgid "Tukey"
-msgstr ""
+msgstr "Tukey"
 
 msgid "Benjamini-Hochberg"
-msgstr ""
+msgstr "Benjamini-Hochberg"
 
 msgid "Benjamini-Yekutieli"
-msgstr ""
+msgstr "Benjamini-Yekutieli"
 
 msgid "Scheffé"
-msgstr ""
+msgstr "Scheffé"
 
 msgid "Sidak"
-msgstr ""
+msgstr "Sidak"
 
 msgid "Dunnett"
 msgstr "Dunnett"
 
 msgid "Bonferroni"
-msgstr ""
+msgstr "Bonferroni"
 
 msgid "P-values are adjusted using %s adjustment."
-msgstr "Nilai-p disesuaikan menggunakan penyesuaian %s."
+msgstr "Nilai-P disesuaikan menggunakan penyesuaian %s."
 
 msgid "Inference possibly unreliable -- MCMC chains might not have converged; R-hat cannot be computed for all parameters due too few distinct samples. Please re-scale the variables or increase 'Iterations', or 'Adapt delta' in the Options section."
 msgstr ""
+"Inferensi mungkin tidak dapat diandalkan -- Rantai MCMC mungkin tidak "
+"dikonvergensi; R-hat tidak dapat dihitung untuk semua parameter karena "
+"terlalu sedikit sampel berbeda. Silakan skalakan ulang variabel atau "
+"tingkatkan 'Iterasi', atau 'Adaptasikan delta' di bagian Opsi."
 
 msgid "Inference possibly unreliable -- MCMC chains might not have converged; The largest R-hat is %.3f > 1.01. To lower R-hat please increase 'Iterations', or 'Adapt delta' in the Options section."
 msgstr ""
+"Inferensi mungkin tidak dapat diandalkan -- Rantai MCMC mungkin tidak "
+"dikonvergensi; R-hat terbesar adalah %.3f > 1.01. Untuk merendahkan R-hat "
+"silakan tingkatkan 'Iterasi', atau 'Adaptasikan delta' di bagian Opsi."
 
 msgid "Inference possibly unreliable -- MCMC chains might not have converged; Effective Sample Size (ESS) cannot be computed for all parameters due too few distinct samples. Please re-scale the variables or increase 'Iterations', or 'Adapt delta' in the Options section."
 msgstr ""
+"Inferensi mungkin tidak dapat diandalkan -- Rantai MCMC mungkin tidak "
+"dikonvergensi; Ukuran Sampel Efektif (ESS) tidak dapat dihitung untuk semua "
+"parameter karena terlalu sedikit sampel berbeda. Silakan skalakan ulang "
+"variabel atau tingkatkan 'Iterasi', atau 'Adaptasikan delta' di bagian Opsi."
 
 msgid "Low estimation accuracy -- The smallest Effective Sample Size (ESS) is %1$.2f < %2$1.0f. To increase accuracy please increase 'Iterations', or 'Adapt delta' in the Options section."
 msgstr ""
+"Akurasi estimasi rendah — Ukuran Sampel Efektif (ESS) terkecil adalah %1$.2f "
+"< %2$1.0f. Untuk meningkatkan akurasi silakan tingkatkan 'Iterasi', atau "
+"'Adaptasi delta' di bagian Opsi."
 
 msgid "The model was fitted using restricted maximum likelihood. Please note that models with different fixed effects cannot be compared when REML is used. To use ML, switch 'Test method' to 'Likelihood ratio tests'."
 msgstr ""
+"Model telah disesuaikan menggunakan kemungkinan maksimum terbatas. Silakan "
+"dicatat bahwa model dengan efek tetap berbeda tidak dapat dibandingkan "
+"ketika REML digunakan. Untuk menggunakan ML, alihkan 'Metode uji' menjadi "
+"'Uji rasio kemungkinan'."
 
 msgid "The model was fitted using maximum likelihood."
-msgstr ""
+msgstr "Model telah disesuaikan menggunakan kemungkinan maksimum."
 
 msgid "The optimizer failed to find a solution. Probably due to quasi-separation in the data. Try removing some of the predictors."
 msgstr ""
+"Pengoptimal gagal menemukan solusi. Mungkin karena perpisahan-quasi di data. "
+"Coba hapus beberapa prediktor."
 
 msgid "The optimizer failed to find a solution. Probably due to quasi-separation in the data or an overly complex model structure. Try removing some of the predictors."
 msgstr ""
+"Pengoptimal gagal menemukan solusi. Mungkin karena perpisahan-quasi di data "
+"atau struktur model lebih kompleks. Coba hapus beberapa prediktor."
 
 msgid "The optimizer failed to find a solution due to invalid starting values. (JASP currently does not support specifying different starting values.)"
 msgstr ""
+"Pengoptimal gagal menemukan solusi karena nilai mulai tidak valid. (JASP "
+"saat ini tidak mendukung menentukan nilai mulai berbeda.)"
 
 msgid "The optimizer failed to find a solution. Probably due to scaling issues quasi-separation in the data. Try rescaling or removing some of the predictors."
 msgstr ""
+"Pengoptimal gagal menemukan solusi. Mungkin karena perpisahan-quasi isu "
+"skala di data. Coba skalakan ulang atau hapus beberapa prediktor."
 
 msgid "The optimizer failed to find a solution in the specified number of iterations. (JASP currently does not support modifying the optimizer settings.)"
 msgstr ""
@@ -501,11 +594,11 @@ msgstr[0] ""
 msgid "WAIC estimate unreliable -- There was %1.0f p_waic estimate larger than 0.4. We recommend using LOO instead."
 msgid_plural "WAIC estimate unreliable -- There were %1.0f p_waic estimates larger than 0.4. We recommend using LOO instead."
 msgstr[0] ""
-"Estimasi WAIC tidak dapat diandalkan — Ada %1.0f estimasi p_waic lebih besar "
-"dari 0.4. Kami merekomendasikan menggunakan LOO sebagai pengganti."
+"Estimasi WAIC tidak dapat diandalkan -- Ada %1.0f estimasi p_waic lebih "
+"besar dari 0.4. Kami merekomendasikan menggunakan LOO sebagai pengganti."
 
 msgid "LOO estimate unreliable -- There was %1.0f observation with the shape parameter (k) of the generalized Pareto distribution higher than 0.5."
 msgid_plural "LOO estimate unreliable -- There were %1.0f observations with the shape parameter (k) of the generalized Pareto distribution higher than 0.5."
 msgstr[0] ""
-"Estimasi LOO tidak dapat diandalkan — Ada %1.0f observasi dengan parameter "
+"Estimasi LOO tidak dapat diandalkan -- Ada %1.0f observasi dengan parameter "
 "bentuk (k) dari distribusi Pareto tergeneralisasi lebih tinggi dari 0.5."
